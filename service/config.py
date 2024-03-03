@@ -7,8 +7,10 @@ import logging
 # Get configuration from environment
 DATABASE_URI = os.getenv(
     "DATABASE_URI",
-    "postgresql://postgres:postgres@localhost:5432/postgres"
+    "postgresql://postgres:admin@localhost:5432/tests"
 )
+
+#DATABASE_URI = 'sqlite:///tests.db'
 
 # Configure SQLAlchemy
 SQLALCHEMY_DATABASE_URI = DATABASE_URI

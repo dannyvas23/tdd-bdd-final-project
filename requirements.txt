@@ -1,8 +1,8 @@
-# Pinned dependencies that cause breakage
+# Pinned dependencies that cause breakage Werkzeug==2.1.2
 Werkzeug==2.2.3
-SQLAlchemy==2.0.0
+SQLAlchemy==1.4.46
 
-# Runtime dependencies
+# Runtime dependencies Flask==2.1.2 Flask-SQLAlchemy==2.5.1
 Flask==2.2.3
 Flask-SQLAlchemy==3.0.2
 psycopg2-binary==2.9.3
